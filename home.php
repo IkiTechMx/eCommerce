@@ -11,14 +11,14 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 
 $i = $_GET['id_s'];
 
-$json = file_get_contents("http://127.0.0.1/MyStore/php/api3.php?id_s=$i");
+$json = file_get_contents("http://127.0.0.1/eCommerce/php/api3.php?id_s=$i");
 $obj = json_decode($json);
 
 //print_r ($obj);
 
 $u = $obj[0]->username;
 
-$json2 = file_get_contents("http://localhost/MyStore/php/api5.php?id_s=$i");
+$json2 = file_get_contents("http://localhost/eCommerce/php/api5.php?id_s=$i");
 $obj2 = json_decode($json2);
 
 $c = count($obj2);
@@ -81,7 +81,7 @@ foreach ($obj2 as $row) {
   $n = $row->id_us;
   $f = $row->prod;
 
-  $json3 = file_get_contents("http://localhost/MyStore/php/api2.php?id_p=$f");
+  $json3 = file_get_contents("http://localhost/eCommerce/php/api2.php?id_p=$f");
 
   $obj3 = json_decode($json3);
 

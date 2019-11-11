@@ -4,7 +4,7 @@ session_start();
 
 $i = $_GET['id_s'];
 
-$json = file_get_contents("http://127.0.0.1/MyStore/php/api.php");
+$json = file_get_contents("http://127.0.0.1/eCommerce/php/api.php");
 
 $obj = json_decode($json);
 

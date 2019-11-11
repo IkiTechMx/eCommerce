@@ -2,7 +2,7 @@
 
 $r = $_GET['id_p'];
 
-$json = file_get_contents("http://127.0.0.1/MyStore/php/api2.php?id_p=$r");
+$json = file_get_contents("http://127.0.0.1/eCommerce/php/api2.php?id_p=$r");
 
 $obj = json_decode($json);
 

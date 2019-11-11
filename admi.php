@@ -7,7 +7,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
 }
 
-$json = file_get_contents("http://127.0.0.1/MyStore/php/api.php");
+$json = file_get_contents("http://127.0.0.1/eCommerce/php/api.php");
 
 $obj = json_decode($json);
 

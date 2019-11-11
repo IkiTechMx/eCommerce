@@ -15,7 +15,7 @@ if ($_FILES['archivo']["error"] > 0) {
       
     $fn = $_FILES['archivo']['name'];
 
-    $ru = "http://127.0.0.1/MyStore/img/$fn";
+    $ru = "http://127.0.0.1/eCommerce/img/$fn";
                 
     $res = $con->query("INSERT INTO videojuegos ( nom, precio , img_url ) VALUES ( '$n' , $p , '$ru' ) ");
       

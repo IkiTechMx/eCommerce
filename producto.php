@@ -3,7 +3,7 @@
 $i = $_GET['id_p'];
 $u = $_GET['id_s'];
 
-$json = file_get_contents("http://localhost/MyStore/php/api2.php?id_p=$i");
+$json = file_get_contents("http://localhost/eCommerce/php/api2.php?id_p=$i");
 
 $obj = json_decode($json);
 
@@ -39,7 +39,7 @@ $l = $obj[0]->img_url;
 <h1> <?= $n ?> <br> <?=  "$" . $p ?> <p> ★ ★ ★ ★ ★ </p> </h1>
  
 
-<a href="http://localhost/MyStore/php/api4.php?id_s=<?= $u ?>&id_p=<?= $i ?>" > 
+<a href="http://localhost/eCommerce/php/api4.php?id_s=<?= $u ?>&id_p=<?= $i ?>" > 
 
 <button id ="b1" > Agregar al carrito </button> </a> 
 
