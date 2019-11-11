@@ -1,0 +1,86 @@
+#tb1 {
+
+    text-align: center;
+    margin: auto; 
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+th  {
+
+    border: solid; 
+    padding: 1%;
+    
+}
+
+td {
+
+    padding: 1%; 
+    width: 20%;
+
+}
+
+
+#imh {
+
+    width: 40%;
+
+}
+
+input {
+
+    text-align: center;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#fup {
+
+    background-color: white;
+    margin: auto;
+    display: block;
+    width: 30%;
+    height: 50%;
+    padding: 3%;
+    border-radius: 5%;
+    border: solid;
+}
+
+#ipp {
+
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-size: 130%;
+    
+}
+
+#buu {
+
+
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+    width: 50%;
+    margin: auto;
+    display: block;
+
+}
+
+#t1 {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}

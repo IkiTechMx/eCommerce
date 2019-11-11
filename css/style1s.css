@@ -1,0 +1,279 @@
+#im1 {
+
+    margin: auto;
+    display: block; 
+    width: 50%;
+
+}
+
+#im2 {
+
+    width: 15%;
+    margin: 2% 0% 0% 8%;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#imc {
+
+    float: left;
+    width: 25%;
+    margin: 5% 0% 0% 5%;
+
+}
+
+h1 {
+
+text-align: right;
+padding: 9%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2 {
+
+    color: red;
+    text-align: right;
+
+}
+
+#b1 {
+
+    background-color: black;
+    color: white;
+    border: black solid;
+    width: 50%;
+    font-size: 120%;
+    padding: 2%;
+    display: block;
+    margin: auto;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+#b1:hover {
+
+    background-color: white;
+    color: black;
+
+}
+
+p {
+
+    color: red;
+
+}
+
+#b2 {
+
+    display: block;
+    margin: auto;
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 100%;
+    padding: 1%;
+    width: 30%;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+#f1 {
+
+    background-color: white;
+    margin: auto;
+    display: block;
+    width: 20%;
+    height: 70%;
+    padding: 3%;
+    border-radius: 5%;
+
+}
+
+#ip1 {
+
+    margin: auto;
+    display: block;
+    width: 90%;
+    font-size: 150%;
+    text-align: center;
+    
+}
+
+#by {
+
+    margin-top: 5%;
+    background-color: darkgray;
+    
+}
+
+#b4 {
+
+    margin: auto; 
+    display: block; 
+    background-color: red;
+    width: 70%;
+    color: white;
+    cursor: pointer;
+    font-size: 120%;
+    border-radius: 3%;
+    border: none;
+    padding: 3%;
+}
+
+#logo {
+
+   width: 40%; 
+   margin: auto;
+   display: block;
+   padding: 15%;
+
+}
+
+#btk {
+
+    background-color: black;
+    border: none;
+    float: left;
+    color: white;
+    font-weight: 900;
+    font-size: 120%;
+    cursor: pointer;
+
+}
+
+#wel {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+#imcart {
+
+    width: 40%;
+    
+}
+
+td {
+
+    text-align: center;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+table {
+
+    width: 70%;
+    margin: auto;
+    
+}
+
+#carr {
+
+    margin: auto;
+    display: block;
+    width: 10%;
+
+}
+
+#back {
+
+    /* background-color: #de0000; */
+    background-color: #e60012; 
+
+}
+
+#hon {
+
+    margin: auto;
+    display: block;
+    width: 70%;
+
+}
+
+#not {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#buy {
+
+    padding: 1%;
+    border: none;
+    background-color: red;
+    color: white;
+    margin: auto; 
+    display: block;
+    font-size: 100%;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+#ex {
+
+    color: white;
+    border: solid;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 100%;
+
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+
+  }
+  
+li {
+
+    float: left;
+
+  }
+  
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+  }
+
+li a:hover {
+
+    background-color: white;
+    color: black;
+    
+  }
+
+  #carr2 {
+
+    width: 3%;
+    float: right;
+
+  }
